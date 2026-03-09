@@ -1,0 +1,27 @@
+.wrapper {
+  margin-bottom: 18px;
+}
+
+.label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #3f556b;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #c7d7e6;
+  background-color: #ffffff;
+  color: #1b2a38;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 0.98rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input:focus {
+  border-color: #2f8edb;
+  box-shadow: 0 0 0 4px rgba(47, 142, 219, 0.14);
+}
