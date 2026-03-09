@@ -56,7 +56,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-- Vercel: `PASTE_YOUR_VERCEL_LINK_HERE`
+- Vercel: `https://goit-react-hw-06-neon-eight.vercel.app/`
 
 ## 🔗 Repository
 
