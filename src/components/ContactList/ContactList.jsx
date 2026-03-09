@@ -1,5 +1,4 @@
-//bu bilesen prop almayacak.storedan verileri cekip kullanacak
-//importlari ekleyelim
+// Reads contacts and filter text from Redux, then renders filtered list.
 import { useSelector } from 'react-redux';
 import { selectContacts } from '../../redux/contactsSlice';
 import { selectNameFilter } from '../../redux/filtersSlice';

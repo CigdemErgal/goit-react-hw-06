@@ -1,14 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-// Contact islemleri: ekleme ve silme
+// Handles add/remove operations for contacts list.
 
 const contactsSlice = createSlice({ name: 'contacts', initialState: { items: [] }, reducers: {
-//addcontact formdan gelen yeni contact objesini(payload) diziye ekler.
-//deleteContact: gelen id ye göre o kisiyi listeden siler.
-
+    // Adds a new contact object to state.items.
     addContact: (state, action) => {
         state.items.push(action.payload);
     },
+    // Removes a contact by id from state.items.
     deleteContact: (state, action) => {
         state.items = state.items.filter(contact => contact.id !== action.payload);
     },
@@ -16,15 +15,13 @@ const contactsSlice = createSlice({ name: 'contacts', initialState: { items: [] 
 });
 
 
-//selectContacts export edilen bir selector fonksiyonudur.
-//  Bu fonksiyon, Redux store'daki contacts diliminden items dizisini seçer ve döndürür.
-//  Bu sayede, bileşenler bu selector'ı kullanarak contacts listesini kolayca erişebilirler.
+// Selector to read contacts array from Redux state.
 export const selectContacts = state => state.contacts.items;
 
-//actions lari export edelim ki componentlerimizde kullanabilelim.
+// Action creators used with dispatch in components.
 export const { addContact, deleteContact } = contactsSlice.actions;
 
-//reducer i export edelim ki store da kullanabilelim.
+// Reducer exported for store configuration.
 export default contactsSlice.reducer;
 
 

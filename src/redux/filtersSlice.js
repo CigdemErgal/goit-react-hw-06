@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-// Filter islemleri: filtreleme ve temizleme
+// Stores current text filter for contact search.
 
 const filtersSlice = createSlice({ 
     name: 'filters',
