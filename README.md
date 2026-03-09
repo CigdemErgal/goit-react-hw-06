@@ -1,25 +1,26 @@
-# goit-react-hw-06
+# 📞 Modern Phonebook - Redux State Management
 
-GoIT React Module 6 odev projesi: **Phonebook** uygulamasi.
+A clean and responsive contact management app built with **React** and **Redux Toolkit**.  
+This project demonstrates scalable state management, persistent storage, and real-time filtering in a modern UI.
 
-## Proje Ozeti
+## 🚀 Features
 
-Bu uygulama ile:
-- Kisi ekleyebilirsiniz
-- Kisi silebilirsiniz
-- Isme gore filtreleme yapabilirsiniz
-- Rehber verisini sayfa yenilense bile koruyabilirsiniz (Redux Persist)
+- **Dynamic Contact Management**: Add and delete contacts instantly with a simple form flow.
+- **Real-time Search Filtering**: Filter contacts live by name as you type.
+- **Persistent Storage**: Contacts are saved in local storage using Redux Persist.
+- **Unique Identification**: Every contact is created with a unique id (`nanoid`).
+- **Modern UI**: Responsive layout with CSS Modules and reusable component styling.
 
-## Kullanilan Teknolojiler
+## 🛠 Technologies Used
 
-- React (Vite)
+- React + Vite
 - Redux Toolkit
 - React Redux (`useSelector`, `useDispatch`)
 - Redux Persist
 - CSS Modules
-- ESLint + Prettier uyumlu kod duzeni
+- ESLint
 
-## Proje Yapisi
+## 📂 Project Structure
 
 ```text
 src/
@@ -34,29 +35,29 @@ src/
     filtersSlice.js
 ```
 
-## Kurulum
+## ⚙️ Installation
 
 ```bash
 npm install
 ```
 
-## Calistirma
+## ▶️ Run Locally
 
 ```bash
 npm run dev
 ```
 
-## Kontroller
+## ✅ Quality Checks
 
 ```bash
 npm run lint
 npm run build
 ```
 
-## Canli Proje
+## 🌐 Live Demo
 
-- Vercel: `BURAYA_VERCEL_LINKINI_EKLE`
+- Vercel: `PASTE_YOUR_VERCEL_LINK_HERE`
 
-## Kaynak Kod
+## 🔗 Repository
 
 - GitHub: `https://github.com/CigdemErgal/goit-react-hw-06`
